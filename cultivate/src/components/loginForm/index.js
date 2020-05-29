@@ -6,18 +6,18 @@ import "./style.css";
     //password
     //login btn
 
-    export function Input(props) {
+    export function LoginUsernameInput(props) {
         return (
           <div className="form-group">
-            <input className="form-control" {...props} />
+            <input className="form-control" id="login-username" {...props} />
           </div>
         );
       }
       
-    export function Input(props) {
+    export function LoginPasswordInput(props) {
         return (
           <div className="form-group">
-            <input className="form-control" {...props} />
+            <input className="form-control" id="login-password" {...props} />
           </div>
         );
       }

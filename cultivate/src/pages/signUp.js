@@ -1,6 +1,9 @@
-import React from "react";
+import { SignUpForm } from "../components/signUpForm";
 import { Container, Row, Col } from "./components/grid";
-import "./style.css";
+
+//welcome header: "Welcome to Cultivate" & login/ register btns
+
+//title: "Sign Up"
 
 //Signup form:
     //first name
@@ -10,3 +13,5 @@ import "./style.css";
     //password
     //verify password
     //sign up btn
+
+//footer
