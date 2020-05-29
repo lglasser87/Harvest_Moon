@@ -1,0 +1,1 @@
+import { PlantInfo } from "../components/plantInfo";
