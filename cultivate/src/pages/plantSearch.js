@@ -7,7 +7,7 @@ import { AddBtn } from "../components/addBtn";
 
 //search form
 
-//submit onclick --> plant cards
+//form submit btn onclick --> plant cards
     //name
     //description
     //season

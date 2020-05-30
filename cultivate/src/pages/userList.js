@@ -1,4 +1,5 @@
 import { List, ListItem } from "../components/userList";
+import { PlantCard } from "../components/plantInfo";
 import { DeleteBtn } from "../components/deleteBtn";
 import { Container, Row, Col } from "./components/grid";
 
