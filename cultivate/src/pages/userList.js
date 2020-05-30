@@ -18,3 +18,29 @@ import { Container, Row, Col } from "./components/grid";
     //delete btn
 
 //footer
+
+<Container fluid>
+    <Row>
+        <Col size="md-12">
+            <h1>My List</h1>
+        </Col>
+    </Row>
+
+    <Row>
+        <Col size="md-8">
+            <div>
+            <List>
+                <ListItem>
+                    <PlantCard />
+                </ListItem>
+            </ List>
+            </div>
+        </Col>
+    </Row>
+
+    <Row>
+        <Col size="md-8">
+            <DeleteBtn />
+        </Col>
+    </Row>
+</Container>
