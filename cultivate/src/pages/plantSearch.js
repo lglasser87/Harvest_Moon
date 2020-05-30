@@ -12,6 +12,7 @@ import { AddBtn } from "../components/addBtn";
     //description
     //season
     //image?
+    //view --> plant info page
     //add btn
 
 //footer
