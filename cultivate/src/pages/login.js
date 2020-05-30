@@ -11,3 +11,17 @@ import { Container, Row, Col } from "./components/grid";
     //login btn --> dashboard page if successful
 
 //footer
+
+<Container fluid>
+    <Row>
+        <Col size="md-12">
+            <h1>Login</h1>
+        </Col>
+    </Row>
+
+    <Row>
+        <Col size="md-8 align-self-center">
+            <LoginForm />
+        </Col>
+    </Row>
+</Container>
