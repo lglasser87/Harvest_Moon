@@ -1,4 +1,4 @@
-import { PlantSearch } from "../components/plantSearchForm";
+import { SearchInput, SearchDropdown, SearchBtn } from "../components/plantSearchForm";
 import { AddBtn } from "../components/addBtn";
 
 //nav bar
@@ -7,7 +7,7 @@ import { AddBtn } from "../components/addBtn";
 
 //search form
 
-//plant cards
+//submit onclick --> plant cards
     //name
     //description
     //season

@@ -1,4 +1,4 @@
-import { PlantInfo } from "../components/plantInfo";
+import { PlantCard } from "../components/plantInfo";
 import { Container, Row, Col } from "./components/grid";
 
 //nav bar
