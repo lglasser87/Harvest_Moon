@@ -4,7 +4,7 @@ import { Container, Row, Col } from "./components/grid";
 
 //title: "Cultivate"
 
-//Login btn
-//Signup btn
+//Login btn --> login page
+//Signup btn --> sign up page
 
 //footer

@@ -8,6 +8,6 @@ import { Container, Row, Col } from "./components/grid";
 //Login form: 
     //username
     //password
-    //login btn
+    //login btn --> dashboard page if successful
 
 //footer
