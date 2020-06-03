@@ -9,26 +9,33 @@ import { Container, Row, Col } from "./components/grid";
 
 //footer
 
-<Container fluid>
-    <Row>
-        <Col size="md-12">
-            <h1>Cultivate</h1>
-        </Col>
-    </Row>
-
-    <Row>
-        <Col size="md-12">
+function Landing() {
+    return (
+        <Container fluid>
             <Row>
-                <Col size="md-4 align-self-center">
-                    {/*Login Btn*/}
+                <Col size="md-12">
+                    <h1>Cultivate</h1>
                 </Col>
             </Row>
 
             <Row>
-                <Col size="md-4 align-self-center">
-                    {/*Sign Up Btn*/}
+                <Col size="md-12">
+                    <Row>
+                        <Col size="md-4 align-self-center">
+                            {/*Login Btn*/}
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col size="md-4 align-self-center">
+                            {/*Sign Up Btn*/}
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
-        </Col>
-    </Row>
-</Container>
+        </Container>
+    );
+}
+
+export default Landing;
+
