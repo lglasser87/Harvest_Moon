@@ -33,14 +33,9 @@ import { Container, Row, Col } from "./components/grid";
                 <ListItem>
                     <PlantCard />
                 </ListItem>
+                <DeleteBtn />
             </ List>
             </div>
-        </Col>
-    </Row>
-
-    <Row>
-        <Col size="md-8">
-            <DeleteBtn />
         </Col>
     </Row>
 </Container>

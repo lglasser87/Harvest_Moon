@@ -19,7 +19,7 @@ function PlantCard({ title, image, description, season, rotate, start, maintain 
                 <h2>{title}</h2>
             </div>
             <div>
-                <img className="card-img" src={image} alt="user thumbnail" />
+                <img className="card-img" src={image} alt="plant thumbnail" />
                 {!image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
             </div>
             <div>
