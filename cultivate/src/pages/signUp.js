@@ -16,46 +16,54 @@ import { Container, Row, Col } from "./components/grid";
 
 //footer
 
-<Container fluid>
-    <Row>
-        <Col size="md-12">
-            <h1>Sign Up</h1>
-        </Col>
-    </Row>
+function Signup() {
+    return (
+        <Container fluid>
+            <Row>
+                <Col size="md-12">
+                    <h1>Sign Up</h1>
+                </Col>
+            </Row>
 
-    <Row>
-        <Col size="md-8 align-self-center">
-            <SignUpFirstNameInput />
-        </Col>
-    </Row>
-    <Row>
-        <Col size="md-8 align-self-center">
-            <SignUpLastNameInput />
-        </Col>
-    </Row>
-    <Row>
-        <Col size="md-8 align-self-center">
-            <SignUpEmailInput />
-        </Col>
-    </Row>
-    <Row>
-        <Col size="md-8 align-self-center">
-            <SignUpUsernameInput />
-        </Col>
-    </Row>
-    <Row>
-        <Col size="md-8 align-self-center">
-            <SignUpPasswordInput />
-        </Col>
-    </Row>
-    <Row>
-        <Col size="md-8 align-self-center">
-            <SignUpPasswordVerifyInput />
-        </Col>
-    </Row>
-    <Row>
-        <Col size="md-8 align-self-center">
-            <SignUpBtn />
-        </Col>
-    </Row>
-</Container>
+            <Row>
+                <Col size="md-8 align-self-center">
+                    <SignUpFirstNameInput />
+                </Col>
+            </Row>
+            <Row>
+                <Col size="md-8 align-self-center">
+                    <SignUpLastNameInput />
+                </Col>
+            </Row>
+            <Row>
+                <Col size="md-8 align-self-center">
+                    <SignUpEmailInput />
+                </Col>
+            </Row>
+            <Row>
+                <Col size="md-8 align-self-center">
+                    <SignUpUsernameInput />
+                </Col>
+            </Row>
+            <Row>
+                <Col size="md-8 align-self-center">
+                    <SignUpPasswordInput />
+                </Col>
+            </Row>
+            <Row>
+                <Col size="md-8 align-self-center">
+                    <SignUpPasswordVerifyInput />
+                </Col>
+            </Row>
+            <Row>
+                <Col size="md-8 align-self-center">
+                    <SignUpBtn />
+                </Col>
+            </Row>
+        </Container>
+    );
+}
+
+export default Signup();
+
+

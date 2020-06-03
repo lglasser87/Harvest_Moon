@@ -18,22 +18,28 @@ import { Container, Row, Col } from "./components/grid";
 
 //footer
 
-<Container fluid>
-    <Row>
-        <Col size="md-12">
-            <h1>Plant Info</h1>
-        </Col>
-    </Row>
+function PlantInfo() {
+    return (
+        <Container fluid>
+            <Row>
+                <Col size="md-12">
+                    <h1>Plant Info</h1>
+                </Col>
+            </Row>
 
-    <Row>
-        <Col size="md-8">
-            <PlantCard />
-        </Col>
-    </Row>
+            <Row>
+                <Col size="md-8">
+                    <PlantCard />
+                </Col>
+            </Row>
 
-    <Row>
-        <Col size="md-8">
-            <AddBtn />
-        </Col>
-    </Row>
-</Container>
+            <Row>
+                <Col size="md-8">
+                    <AddBtn />
+                </Col>
+            </Row>
+        </Container>
+    );
+}
+
+export default PlantInfo();
