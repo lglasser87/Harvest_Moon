@@ -1,3 +1,4 @@
+import React from "react";
 import { SearchInput, SearchDropdown, SearchBtn } from "./components/plantSearchForm";
 import { AddBtn } from "./components/addBtn";
 import PlantCard from "./components/plantInfo";

@@ -1,3 +1,4 @@
+import React from "react";
 import { SignUpFirstNameInput, SignUpLastNameInput, SignUpEmailInput, SignUpUsernameInput, SignUpPasswordInput, SignUpPasswordVerifyInput, SignUpBtn } from "./components/signUpForm";
 import { Container, Row, Col } from "./components/grid";
 

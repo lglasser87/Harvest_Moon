@@ -1,3 +1,4 @@
+import React from "react";
 import { List, ListItem } from "./components/userList";
 import { PlantCard } from "./components/plantInfo";
 import { DeleteBtn } from "./components/deleteBtn";
