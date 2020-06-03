@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col } from "./components/grid";
 
 //welcome header: "Welcome to Cultivate" & login/ register btns (different navbar for landing, login, signup pages?)
