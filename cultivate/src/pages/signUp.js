@@ -1,4 +1,4 @@
-import { SignUpFirstNameInput, SignUpLastNameInput, SignUpEmailInput, SignUpUsernameInput, SignUpPasswordInput, SignUpPasswordVerifyInput, SignUpBtn } from "../components/signUpForm";
+import { SignUpFirstNameInput, SignUpLastNameInput, SignUpEmailInput, SignUpUsernameInput, SignUpPasswordInput, SignUpPasswordVerifyInput, SignUpBtn } from "./components/signUpForm";
 import { Container, Row, Col } from "./components/grid";
 
 //welcome header: "Welcome to Cultivate" & login/ register btns

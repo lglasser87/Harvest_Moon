@@ -1,6 +1,6 @@
-import { SearchInput, SearchDropdown, SearchBtn } from "../components/plantSearchForm";
-import { AddBtn } from "../components/addBtn";
-import PlantCard from "../components/plantInfo";
+import { SearchInput, SearchDropdown, SearchBtn } from "./components/plantSearchForm";
+import { AddBtn } from "./components/addBtn";
+import PlantCard from "./components/plantInfo";
 
 //nav bar
 

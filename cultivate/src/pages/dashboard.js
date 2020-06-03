@@ -1,4 +1,4 @@
-import { WeatherJumboTron } from "../components/weather";
+import { WeatherJumboTron } from "./components/weather";
 import { Container, Row, Col } from "./components/grid";
 
 //nav bar
@@ -11,7 +11,7 @@ import { Container, Row, Col } from "./components/grid";
 
 //footer
 
-const Dashboard = () => {
+function Dashboard() {
     return (
         <Container fluid>
             <Row>
