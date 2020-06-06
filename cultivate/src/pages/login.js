@@ -1,5 +1,6 @@
-import { LoginForm } from "../components/loginForm";
-import { Container, Row, Col } from "./components/grid";
+import React from "react";
+//import { LoginForm } from "../components/loginForm";
+import { Container, Row, Col } from "../components/grid";
 
 //welcome header: "Welcome to Cultivate" & login/ register btns
 
@@ -12,16 +13,22 @@ import { Container, Row, Col } from "./components/grid";
 
 //footer
 
-<Container fluid>
-    <Row>
-        <Col size="md-12">
-            <h1>Login</h1>
-        </Col>
-    </Row>
+function Login () {
+    return (
+        <Container fluid>
+            <Row>
+                <Col size="md-12">
+                    <h1>Login</h1>
+                </Col>
+            </Row>
 
-    <Row>
-        <Col size="md-8 align-self-center">
-            <LoginForm />
-        </Col>
-    </Row>
-</Container>
+            <Row>
+                <Col size="md-8 align-self-center">
+                   
+                </Col>
+            </Row>
+        </Container>
+    );
+}
+
+export default Login();

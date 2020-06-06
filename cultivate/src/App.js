@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./pages/landing";
 import Login from "./pages/login";
-import Signup from "./pages/signup";
+import Signup from "./pages/signUp";
 import Dashboard from "./pages/dashboard";
 import UserList from "./pages/userList";
 import PlantSearch from "./pages/plantSearch";
@@ -15,14 +15,33 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Landing} />
-          <Route exact path="/home" component={Landing} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/signup" component={Signup} />
-          <Route exact path="/dashboard" component={Dashboard} />
-          <Route exact path="/user-list" component={UserList} />
-          <Route exact path="/plant-search" component={PlantSearch} />
-          <Route exact path="/plant-info" component={PlantInfo} />
+          <Route exact path="/">
+            <Dashboard />
+          </Route>
+          <Route exact path="/home">
+            <Dashboard />
+          </Route>
+          <Route exact path="/login">
+            <Login />
+          </Route>
+          <Route exact path="/signUp">
+            <Signup />
+          </Route>
+          <Route exact path="/dashboard">
+            <Dashboard />
+          </Route>
+          <Route exact path="/userList">
+            <UserList />
+          </Route>
+          <Route exact path="/plantSearch">
+            <PlantSearch />
+          </Route>
+          <Route exact path="/plantInfo">
+            <PlantInfo />
+          </Route>
+          <Route exact path="/landing">
+            <Landing />
+          </Route>
         </Switch>
       </div>
     </Router>

@@ -1,6 +1,7 @@
-import { PlantCard } from "../components/plantInfo";
-import { AddBtn } from "../components/addBtn";
-import { Container, Row, Col } from "./components/grid";
+import React from "react";
+//import { PlantCard } from "./components/plantInfo";
+//import { AddBtn } from "./components/addBtn";
+import { Container, Row, Col } from "../components/grid";
 
 //nav bar
 
@@ -18,22 +19,18 @@ import { Container, Row, Col } from "./components/grid";
 
 //footer
 
-<Container fluid>
-    <Row>
-        <Col size="md-12">
-            <h1>Plant Info</h1>
-        </Col>
-    </Row>
+function PlantInfo() {
+    return (
+        <Container fluid>
+            <Row>
+                <Col size="md-12">
+                    <h1>Plant Info</h1>
+                </Col>
+            </Row>
 
-    <Row>
-        <Col size="md-8">
-            <PlantCard />
-        </Col>
-    </Row>
 
-    <Row>
-        <Col size="md-8">
-            <AddBtn />
-        </Col>
-    </Row>
-</Container>
+        </Container>
+    );
+}
+
+export default PlantInfo();

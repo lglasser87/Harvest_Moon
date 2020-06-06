@@ -5,7 +5,7 @@ import "./style.css";
     //username
     //password
     //login btn
-
+function logingForm (){
     export function LoginUsernameInput(props) {
         return (
           <div className="form-group">
@@ -29,3 +29,5 @@ import "./style.css";
           </button>
         );
       }
+    }
+    export default logingForm
