@@ -4,7 +4,7 @@ const controller = require("../../controllers/controller");
 // Matches with "/api/books"
 router.route("/")
   .get(controller.findAll)
-  .post(controller.create);
+  // .post(controller.create);
 
 // Matches with "/api/books/:id"
 router
