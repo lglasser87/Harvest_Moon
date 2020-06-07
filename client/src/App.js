@@ -7,10 +7,7 @@ function App() {
         <Router>
             <div>
                 <Switch>
-                    <Route exact path="/">
-                        <Dashboard />
-                    </Route>
-                    <Route exact path="/dashboard">
+                    <Route exact path={["/", "/dasboard"]}>
                         <Dashboard />
                     </Route>
                 </Switch>
