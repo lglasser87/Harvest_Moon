@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const plantsController = require("../../controllers/plantsController");
+const plantsController = require("../../controllers/plantsControllers");
 
 // Matches with "/api/plants"
 router.route("/")
@@ -7,10 +7,10 @@ router.route("/")
   // .post(controller.create);
 
 // Matches with "/api/plants/:id"
-router
-  .route("/:id")
-  .get(plantsController.findById)
-  .put(plantsController.update)
-  .delete(plantsController.remove);
+// router
+//   .route("/:id")
+//   .get(plantsController.findById)
+//   .put(plantsController.update)
+//   .delete(plantsController.remove);
 
 module.exports = router;
