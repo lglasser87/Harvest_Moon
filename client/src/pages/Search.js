@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Col, Row, Container } from "../components/Grid";
+// import { Link } from "react-router-dom";
+import { Row, Container } from "../components/Grid";
 import Navbar from "../components/Navbar";
 
 function Search() {

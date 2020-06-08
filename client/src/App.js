@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Dashboard from "./pages/Dashboard"
 import Plants from "./pages/Plants"
+import Detail from "./pages/Detail"
 import Search from "./pages/Search"
 import Login from "./pages/Login"
 
@@ -15,6 +16,9 @@ function App() {
                     </Route>
                     <Route exact path="/plants">
                         <Plants />
+                    </Route>
+                    <Route exact path="/plants/:id">
+                        <Detail />
                     </Route>
                     <Route exact path="/search">
                         <Search />
