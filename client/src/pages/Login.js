@@ -1,22 +1,34 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import { Row, Container } from "../components/Grid";
-import Navbar from "../components/Navbar"
+import { LoginForm } from "./components/loginForm";
+import { Container, Row, Col } from "./components/grid";
 
-function Login() {
-    // Set the appropriate functions and calls to ensure a login is properly made.
+//welcome header: "Welcome to Cultivate" & login/ register btns
 
+//title: "Login"
+
+//Login form: 
+    //username
+    //password
+    //login btn --> dashboard page if successful
+
+//footer
+
+function Login () {
     return (
         <Container fluid>
-            <Navbar />
             <Row>
-                <p>user name</p>
-                <p>password</p>
-                <button>submit</button>
+                <Col size="md-12">
+                    <h1>Login</h1>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col size="md-8 align-self-center">
+                    <LoginForm />
+                </Col>
             </Row>
         </Container>
-    )
-    
+    );
 }
 
-export default Login;
+export default Login();

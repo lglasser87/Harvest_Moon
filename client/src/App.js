@@ -1,35 +1,51 @@
-import React from "react";
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Dashboard from "./pages/Dashboard"
-import Plants from "./pages/Plants"
-import Detail from "./pages/Detail"
-import Search from "./pages/Search"
-import Login from "./pages/Login"
+import Landing from "./pages/landing";
+import Login from "./pages/login";
+import Signup from "./pages/signup";
+import Dashboard from "./pages/dashboard";
+import UserList from "./pages/userList";
+import PlantSearch from "./pages/plantSearch";
+import PlantInfo from "./pages/plantInfo";
+import Nav from "./components/Nav";
 
 function App() {
-    return (
-        <Router>
-            <div>
-                <Switch>
-                    <Route exact path={["/", "/dasboard"]}>
-                        <Dashboard />
-                    </Route>
-                    <Route exact path="/plants">
-                        <Plants />
-                    </Route>
-                    <Route exact path="/plants/:id">
-                        <Detail />
-                    </Route>
-                    <Route exact path="/search">
-                        <Search />
-                    </Route>
-                    <Route exact path="/login">
-                        <Login />
-                    </Route>
-                </Switch>
-            </div>
-        </Router>
-    );
+  return (
+    <Router>
+      <div>
+        <Nav />
+        <Switch>
+          <Route exact path="/">
+            <Dashboard />
+          </Route>
+          <Route exact path="/home">
+            <Dashboard />
+          </Route>
+          <Route exact path="/login">
+            <Login />
+          </Route>
+          <Route exact path="/signUp">
+            <Signup />
+          </Route>
+          <Route exact path="/dashboard">
+            <Dashboard />
+          </Route>
+          <Route exact path="/userList">
+            <UserList />
+          </Route>
+          <Route exact path="/plantSearch">
+            <PlantSearch />
+          </Route>
+          <Route exact path="/plantInfo">
+            <PlantInfo />
+          </Route>
+          <Route exact path="/landing">
+            <Landing />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
 }
 
 export default App;

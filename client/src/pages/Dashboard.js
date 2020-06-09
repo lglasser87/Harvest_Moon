@@ -1,36 +1,48 @@
 import React from "react";
-import { Col, Row, Container } from "../components/Grid"
-import Jumbotron from "../components/Jumbotron"
-import Navbar from "../components/Navbar"
+import { WeatherJumboTron } from "./components/weather";
+import { Container, Row, Col } from "./components/grid";
+
+//nav bar
+
+//title: "My Dashboard"
+
+//left column: weather
+//top right column: project & season
+//bottom right column: latest (forum?) posts
+
+//footer
 
 function Dashboard() {
-    // Set all states, useEffects, and functions that will operate with the interactive website.
-
-    // Code for the component
     return (
-    <Container fluid>
-        <Navbar />
-        <Row>
-            <Jumbotron>
-                <h1>Weather info goes here</h1>
-            </Jumbotron>
-        </Row>
-        <Row>
-            <Col size="md-6">
-                <p>Weather day</p>
-                <p>Weather day</p>
-                <p>Weather day</p>
-                <p>Weather day</p>
-                <p>Weather day</p>
-                <p>Weather day</p>
-                <p>Weather day</p>
-            </Col>
-            <Col size="md-6 sm-12">
-                <h2>Stuff will go here</h2>
-            </Col>
-        </Row>
-    </Container>
-    )
+        <Container fluid>
+            <Row>
+                <Col size="md-12">
+                    <h1>My Dashboard</h1>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col size="md-4">
+                    <WeatherJumboTron />
+                </Col>
+
+                <Col size="md-8">
+                    <Row>
+                        <Col size="md-8">
+                            {/*Current Project(s) & Season. Need to make these components.*/}
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col size="md-8">
+                            {/*Latest Forum? Posts. Need to make these components.*/}
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Container>
+
+    );
 }
 
-export default Dashboard;
+export default Dashboard();
